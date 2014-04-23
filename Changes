@@ -1,32 +1,45 @@
-Change file for Text::Levenshtein
-Dree Mistrut <dree@friul.it>
-Josh Goldberg <josh@3io.com>
+Revision history for Perl module Text::Levenshtein
 
-Version 0.06: 2008/05/13
-   Bugfixes, especially 26134
+0.07 2014-04-23
 
-Version 0.05: 2004/06/29
-   Rename distfile for consistency
+    - Completely rewrote module, based on the "iterative with two matrix rows"
+      version on the Wikipedia page. Added three new testsuites.
+    - Use List::Util::min()
+    - Drop the '&' before 'fastdistance' in the doc. RT#42535
+    - Moved module to lib/Text/Levenshtein.pm
+    - Moved test.pl to t/01-original.t and changed it to be a proper testsuite
+    - Removed META.yml so metadata files will be generated
+    - Specified min perl version as 5.6.0
+    - Added a bunch of similar modules to the SEE ALSO section
+    - Added an explicit COPYRIGHT AND LICENSE section in pod
+    - Added github repo to pod (and to the metadata)
+    - Reformatted Changes as per CPAN::Changes::Spec
 
-Version 0.04: 2004/03/06
+0.06_01 2008-05-14 JGOLDBERG
 
-   Added several modifications to increase speed
-   Added fastdistance routine when array form can be sacrificed
-    for increased speed
+    - Bugfixes, especially 26134
 
-Version 0.03 : 2002/07/28
+0.05 2004-07-01 JGOLDBERG
 
-   Changed docs to point to Text::WagnerFischer
-   (Thanks to S. Rodighiero and D. Frankowski to point me this)
-   Better initialization of the matrix 
+    - Rename distfile for consistency
 
+0.04: 2004-03-06 JGOLDBERG
 
-Version 0.02 : 2002/05/21
+    - Added several modifications to increase speed
+    - Added fastdistance routine when array form can be sacrificed
+      for increased speed
 
-   Added array support
+0.03 2002-07-28 DREE
 
+   - Changed docs to point to Text::WagnerFischer
+     (Thanks to S. Rodighiero and D. Frankowski to point me this)
+   - Better initialization of the matrix 
 
-Version 0.01 : 2002/05/20
+0.02 2002-05-29 DREE
 
-   No changes -- initial release
+   - Added array support
+
+0.01 2002-05-20 DREE
+
+   - No changes -- initial release
 
