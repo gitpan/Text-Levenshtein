@@ -6,6 +6,9 @@ author:
   - 'Neil Bowers <neilb@cpan.org>'
 build_requires:
   Test::More: '0.88'
+  lib: '0'
+  open: '0'
+  parent: '0'
   utf8: '0'
 configure_requires:
   ExtUtils::MakeMaker: '6.30'
@@ -16,6 +19,9 @@ meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
 name: Text-Levenshtein
+no_index:
+  package:
+    - Text::Levenshtein::TestUtils
 requires:
   Carp: '0'
   Exporter: '0'
@@ -26,4 +32,4 @@ requires:
 resources:
   homepage: https://github.com/neilbowers/Text-Levenshtein
   repository: https://github.com/neilbowers/Text-Levenshtein.git
-version: '0.08'
+version: '0.09'

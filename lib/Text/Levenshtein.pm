@@ -1,5 +1,5 @@
 package Text::Levenshtein;
-$Text::Levenshtein::VERSION = '0.08';
+$Text::Levenshtein::VERSION = '0.09';
 use 5.006;
 use strict;
 use warnings;

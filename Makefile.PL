@@ -29,9 +29,12 @@ my %WriteMakefileArgs = (
   },
   "TEST_REQUIRES" => {
     "Test::More" => "0.88",
+    "lib" => 0,
+    "open" => 0,
+    "parent" => 0,
     "utf8" => 0
   },
-  "VERSION" => "0.08",
+  "VERSION" => "0.09",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -43,6 +46,9 @@ my %FallbackPrereqs = (
   "Exporter" => 0,
   "List::Util" => 0,
   "Test::More" => "0.88",
+  "lib" => 0,
+  "open" => 0,
+  "parent" => 0,
   "strict" => 0,
   "utf8" => 0,
   "warnings" => 0
