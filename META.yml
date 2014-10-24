@@ -11,9 +11,9 @@ build_requires:
   parent: '0'
   utf8: '0'
 configure_requires:
-  ExtUtils::MakeMaker: '6.30'
+  ExtUtils::MakeMaker: '0'
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.015, CPAN::Meta::Converter version 2.133380'
+generated_by: 'Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.141170'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -26,10 +26,11 @@ requires:
   Carp: '0'
   Exporter: '0'
   List::Util: '0'
+  Unicode::Collate: '0'
   perl: '5.006'
   strict: '0'
   warnings: '0'
 resources:
   homepage: https://github.com/neilbowers/Text-Levenshtein
   repository: https://github.com/neilbowers/Text-Levenshtein.git
-version: '0.09'
+version: '0.10'
