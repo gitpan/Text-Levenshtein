@@ -33,4 +33,4 @@ requires:
 resources:
   homepage: https://github.com/neilbowers/Text-Levenshtein
   repository: https://github.com/neilbowers/Text-Levenshtein.git
-version: '0.10'
+version: '0.11'
