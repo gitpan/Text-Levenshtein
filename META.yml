@@ -26,11 +26,11 @@ requires:
   Carp: '0'
   Exporter: '0'
   List::Util: '0'
-  Unicode::Collate: '0'
+  Unicode::Collate: '1.04'
   perl: '5.006'
   strict: '0'
   warnings: '0'
 resources:
   homepage: https://github.com/neilbowers/Text-Levenshtein
   repository: https://github.com/neilbowers/Text-Levenshtein.git
-version: '0.11'
+version: '0.12'

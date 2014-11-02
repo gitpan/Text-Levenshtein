@@ -23,7 +23,7 @@ my %WriteMakefileArgs = (
     "Carp" => 0,
     "Exporter" => 0,
     "List::Util" => 0,
-    "Unicode::Collate" => 0,
+    "Unicode::Collate" => "1.04",
     "strict" => 0,
     "warnings" => 0
   },
@@ -34,7 +34,7 @@ my %WriteMakefileArgs = (
     "parent" => 0,
     "utf8" => 0
   },
-  "VERSION" => "0.11",
+  "VERSION" => "0.12",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -46,7 +46,7 @@ my %FallbackPrereqs = (
   "Exporter" => 0,
   "List::Util" => 0,
   "Test::More" => "0.88",
-  "Unicode::Collate" => 0,
+  "Unicode::Collate" => "1.04",
   "lib" => 0,
   "open" => 0,
   "parent" => 0,
